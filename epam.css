@@ -1,0 +1,506 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "museo-sans","source-han-sans-simplified-c","Source Sans Pro","noto-sans-cjk-jp",arial,helvetica,sans-serif;
+}
+#nav1{
+    position: sticky;
+    background-color: white;
+    top:0%;
+    border: 2px solid;
+    height: 75px;
+    display: flex;
+    align-items: center;
+}
+#nav1 div{
+    /* border: 2px solid red; */
+    border-left: 2px solid;
+    height: 65px;
+}
+#d1{
+    width: 280px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    font-size: 40px;
+    font-weight: 100;
+}
+#d2{
+    width: 1200px;
+    display: flex;
+}
+#sec1{
+    width: 300px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+#sec2{
+    width: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#sec3{
+    width: 350px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+#sec2 ol{
+    list-style: none;
+    display: flex;
+    justify-items: start;
+    gap: 30px;
+    font-weight: 700;
+}
+#b1{
+    border: 2px solid;
+    width: 150px;
+    height: 35px;
+    border-radius: 15px;
+}
+#s1{
+    /* border: 2px solid green; */
+    height: 800px;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    background: url("./Assests/rethinking_network_security_embrace_inevitability_of_breaches_to_strengthen_defenses.webp") center center;
+}
+#main1{
+    /* border: 2px solid brown; */
+    height: 450px;
+    width: 1100px;
+}
+#main1 p,.col{
+    font-family: "museo-sans","source-han-sans-simplified-c","Source Sans Pro","noto-sans-cjk-jp",arial,helvetica,sans-serif;
+    font-size: 50px;
+}
+.col{
+    font-weight: 600;
+    background-image: linear-gradient(to left, rgb(184, 150, 255) 28px, rgb(0, 246, 255) 78.4px, rgb(0, 255, 240) 100%);
+    background-clip: text;
+    color: transparent;
+}
+span{
+    font-size: 20px;
+}
+i{
+    font-size: 30px;
+}
+aside{
+    /* border: 2px solid rebeccapurple; */
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#main2{
+    /* border: 2px solid brown;     */
+    height: 450px;
+    width: 1100px;
+    display: flex;
+}
+#main2 p,.col2{
+    font-family: "museo-sans","source-han-sans-simplified-c","Source Sans Pro","noto-sans-cjk-jp",arial,helvetica,sans-serif;
+    /* border: 2px solid yellow; */
+    height: 300px;
+    font-size: 70px;
+}
+.col2{
+    font-weight: 600;
+    background-image: linear-gradient(to left, rgb(132, 83, 210) 47px, rgb(0, 71, 255) 131.6px, rgb(0, 120, 194) 100%);
+    background-clip: text;
+    color: transparent;
+}
+header{
+    /* border: 2px solid rebeccapurple; */
+    height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#main3{
+    /* border: 2px solid brown;     */
+    height: 450px;
+    width: 1100px;
+    display: flex;
+    flex-direction: column;
+}
+#main3 span{
+    font-family: "museo-sans","source-han-sans-simplified-c","Source Sans Pro","noto-sans-cjk-jp",arial,helvetica,sans-serif;
+    /* border: 2px solid yellow; */
+    height: 210px;
+    font-size: 70px; 
+    font-weight: 100; 
+}
+#main3 p{
+    font-family: "museo-sans","source-han-sans-simplified-c","Source Sans Pro","noto-sans-cjk-jp",arial,helvetica,sans-serif;
+    font-size: 18px;
+    font-weight: lighter;
+    letter-spacing: 0.8px;
+}
+#main3 h2{
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+}
+#scr{
+    /* border: 2px solid hotpink; */
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#scr div{
+    border-top: 1px solid;
+    height: 300px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+#scr h1{
+    background-image: linear-gradient(to right, rgb(0, 120, 194) 15%, rgb(0, 71, 255) 60%, rgb(132, 83, 210) 95%);
+    background-clip: text;
+    color: transparent;
+    font-family: "museo-sans", "source-han-sans-simplified-c", "Source Sans Pro", "noto-sans-cjk-jp", arial, helvetica, sans-serif;
+    line-height: 180px;
+    font-size: 150px;
+    font-weight: 100;
+}
+#scr span{
+    font-family: "museo-sans", "source-han-sans-simplified-c", "Source Sans Pro", "noto-sans-cjk-jp", arial, helvetica, sans-serif;
+    font-size: 20px;
+}
+#xyz{
+    /* border: 2px solid green; */
+    height: 800px;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    background: url("./Assests/leveraging_ai_to_boost_operational_efficiency_with_dial_1920.jpg") center center;
+}
+#mno{
+    /* border: 2px solid brown; */
+    height: 450px;
+    width: 1100px;
+}
+#mno h4{
+    font-family: "museo-sans","source-han-sans-simplified-c","Source Sans Pro","noto-sans-cjk-jp",arial,helvetica,sans-serif;
+    font-size: 15px;
+    letter-spacing:7px;
+    font-weight: 600;
+
+}
+#mno p,.col{
+    font-family: "museo-sans","source-han-sans-simplified-c","Source Sans Pro","noto-sans-cjk-jp",arial,helvetica,sans-serif;
+    font-size: 50px;
+}
+.col{
+    font-weight: 600;
+    background-image: linear-gradient(to left, rgb(184, 150, 255) 28px, rgb(0, 246, 255) 78.4px, rgb(0, 255, 240) 100%);
+    background-clip: text;
+    color: transparent;
+}
+#sp{
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+}
+main{
+    /* border: 2px solid tomato; */
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+main div{
+    /* border: 2px solid gold; */
+    height: 600px;
+    /* width:35%;   */
+}
+#m1{
+    width: 600px;
+    height: 500px;
+}
+#m2{
+    width: 440px;
+    height: 450px;
+    background: url("Assests/epam_wins_2025_google_cloud_industry_solutions_partner_of_the_year_award_for_oil_and_gas_1200.jpg") center center;
+    background-repeat: no-repeat;
+}
+#m1 h2{
+     font-family: "museo-sans","source-han-sans-simplified-c","Source Sans Pro","noto-sans-cjk-jp",arial,helvetica,sans-serif;
+    font-size: 15px;
+    letter-spacing:7px;
+    font-weight: 600;
+}
+#m1 h1{
+    font-family: "museo-sans","source-han-sans-simplified-c","Source Sans Pro","noto-sans-cjk-jp",arial,helvetica,sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+#sp1{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 700;
+}
+#para{
+    /* border: 2px solid hotpink; */
+    height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#par{
+    /* border: 2px solid brown; */
+    height: 400px;
+    width: 70%;
+}
+#par p{
+    font-size: 70px;
+    letter-spacing: 3px;
+    font-weight: 100;
+}
+#table{
+    background: none;
+    /* border: 2px solid blue; */
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+td{
+    font-size: 20px;
+    font-weight: 600;
+}
+#empty
+{
+    height: 300px;
+}
+#hed{
+    /* border: 2px solid mediumvioletred; */
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+#dd{
+    /* border: 2px solid magenta; */
+    height: 40px;
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 5px;
+    font-size: 15px;
+}
+#my{
+    /* border: 2px solid tomato; */
+    height: 750px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+#my div{
+     /* border: 2px solid gold; */
+    height: 600px;
+    /* width:35%;   */ 
+}
+
+#my1{
+    width: 600px;
+    height: 500px;
+  
+}
+#my1 h1{
+     font-family: "museo-sans","source-han-sans-simplified-c","Source Sans Pro","noto-sans-cjk-jp",arial,helvetica,sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+#my2{
+    width: 440px;
+    height: 450px;
+    background: url("./Assests/the_complex_path_of_generative_ai_adoption_in_software_development_1200.webp") center center;
+    background-repeat: no-repeat;
+}
+#src2{
+    /* border: 2px solid; */
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    /* justify-content: space-evenly; */
+}
+#src2 div{
+    /* border: 2px solid green; */
+    height: 400px;
+    width: 300px;
+}
+#img1{
+    /* border: 2px solid; */
+    height: 250px;
+    width: 270px;
+    background: url("./Assests/img1.jpg") center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#hv{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    /* align-items: center; */
+}
+#img2{
+    /* border: 2px solid; */
+    height: 250px;
+    width: 270px;
+    background: url("./Assests/img2.jpg") center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#hv1{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    /* align-items: center; */
+}
+#m3{
+    width: 440px;
+    height: 450px;
+    background: url("./Assests/ua.webp") center center;
+    background-repeat: no-repeat;
+}
+#loc{
+    /* border: 2px solid maroon; */
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+#loc h1{
+    /* border: 2px solid green; */
+    font-size: 50px;
+    font-weight: 100;
+    width: 70%;
+}
+#nav2{
+    /* border: 2px solid yellow; */
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#nav2 div{
+    /* border: 2px solid green; */
+    height: 40px;
+    font-size: 15px;
+    font-weight: 800;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 1.8px;
+}
+#pics{
+    /* border: 2px solid magenta; */
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#picts{
+    /* border: 2px solid purple; */
+    width: 71%;
+    height: 450px ;
+    gap: 20px;
+}
+#picts div{
+    /* border: 2px solid mediumblue; */
+    height: 300px;
+    width: 300px;
+}
+#pics hr{
+    width: 75%;
+}
+#foot1{
+    /* border: 2px solid mediumaquamarine; */
+    height: 700px;
+    background: url("./Assests/background.jpg") center center;
+    background-repeat: no-repeat;
+}
+#foot{
+    /* border: 2px solid ; */
+    width: 70%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+#foot div{
+    /* border: 2px solid; */
+    width: 45%;
+    height: 450px;
+}
+#empty3{
+    height: 200px;
+}
+footer{
+    /* border: 2px solid green; */
+    height: 700px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+#foot2{
+    /* border: 2px solid brown; */
+    width: 75%;
+    height: 650px;
+}
+#foot2 div{
+    /* border: 2px solid magenta; */
+    height: 500px;
+    /* width: 400px ; */
+}
+#fd1{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+#fd1 ol{
+    list-style: none;
+    font-size: 18px;
+    letter-spacing: 4px;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#fd2{
+    width: 500px;
+}
+#fd3{
+    width: 300px;
+}
+#icon{
+    display: flex;
+    gap: 40px;
+}
+
+
