@@ -45,9 +45,3 @@ Through building this project, I gained experience in:
 
 ---
 
-## 🚀 Project Setup
-
-### 1. Clone the Repository
-```bash
-git clone https://github.com/Younus06/E-PAM-Clone.git
-cd E-PAM-Clone
